@@ -1,0 +1,13 @@
+{
+  "notes": "tapFrac is the real button centre, computed from its RectTransform over the 1242x2688 canvas: fracX = (621 + anchoredX) / 1242, fracY = (1416 - anchoredY) / 2760 (Expand scaling gives a 1242x2760 logical canvas on 1080x2400, and SafeAreaHandler drops content ~36 units). Each step changes the screen: 2 opens the route sheet, 3 switches the chosen route (rim, card face, crest punch and the summary line all move), 4 leaves for the flight, 5 and 6 are two dashes with different outcomes, 7 opens pause and 8 closes it. The last frame lands around second 31 of the run, well inside the 42-second window in which the flight cannot end.",
+  "steps": [
+    { "waitLoader": true, "shot": "01_HomeScreen" },
+    { "tapFrac": [0.2858, 0.8174], "label": "ROUTES", "wait": 1.6, "shot": "02_RouteSheet" },
+    { "tapFrac": [0.5000, 0.4768], "label": "RIVER BEND", "wait": 1.4, "shot": "03_RouteChosen" },
+    { "tapFrac": [0.5000, 0.8101], "label": "START FLIGHT", "waitLoader": true, "shot": "04_FlightStart" },
+    { "tapFrac": [0.5000, 0.6200], "label": "DASH", "wait": 3.2, "shot": "05_RingDash" },
+    { "tapFrac": [0.5000, 0.5600], "label": "DASH", "wait": 4.4, "shot": "06_QueueAdvance" },
+    { "tapFrac": [0.8784, 0.0964], "label": "PAUSE", "wait": 1.8, "shot": "07_PausePop" },
+    { "tapFrac": [0.7295, 0.6502], "label": "RESUME", "wait": 3.4, "shot": "08_BackInFlight" }
+  ]
+}

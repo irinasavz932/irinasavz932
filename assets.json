@@ -1,0 +1,156 @@
+{
+  "style": "hand-painted storybook gouache illustration, soft warm paper texture, chunky rounded shapes",
+  "palette": ["#FFF2D5", "#F7C94C", "#F28A45", "#65BF69", "#4A9DDA", "#27334D"],
+  "assets": [
+    {
+      "name": "bg_main",
+      "type": "bg",
+      "transparent": false,
+      "target": "Assets/Art/Textures/_BASE/Backgrounds/BG_main.png",
+      "prompt": "Vertical 9:16 mobile menu background, a quiet farmyard at golden hour with a wooden mailbox post and a ribbon of light arcing across the sky, hand-painted storybook gouache illustration, soft warm paper texture, warm cream wheat and ochre, rich but uncluttered, no text, no UI elements, no photo, no photorealism, no lens blur"
+    },
+    {
+      "name": "bg_game",
+      "type": "bg",
+      "transparent": false,
+      "target": "Assets/Art/Textures/_BASE/Backgrounds/BG_game.png",
+      "prompt": "Vertical 9:16 mobile game background, evening sky over rolling mown fields, low hedgerows and distant haystacks, soft wheat and sage bands, warm parchment horizon, hand-painted storybook gouache illustration, soft warm paper texture, low contrast through the central safe area so UI stays readable, no text, no UI elements, no photo, no photorealism, no lens blur"
+    },
+    {
+      "name": "sprite_courier_hen",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_courier_hen.png",
+      "facing": "side view, facing RIGHT",
+      "prompt": "STRICT ORIENTATION: faces RIGHT. One single plump cartoon courier hen in a knitted scarf with a leather satchel, wings spread in a glide, side view facing right, hand-painted storybook gouache illustration, warm cream and wheat tones with a deep ink outline, one subject centred and fully in frame, crisp silhouette, minimal ground shadow, no floor, no text, no other objects, no photo, no photorealism"
+    },
+    {
+      "name": "sprite_mail_letter",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_mail_letter.png",
+      "facing": "symmetrical, do not mirror",
+      "prompt": "One single sealed paper letter with a wheat-coloured wax seal, seen head-on and symmetrical, hand-painted storybook gouache illustration, cream paper with a deep ink outline, one subject centred and fully in frame, crisp silhouette, no text, no lettering, no other objects, no photo, no photorealism"
+    },
+    {
+      "name": "sprite_gate_ring",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_gate_ring.png",
+      "facing": "symmetrical, do not mirror",
+      "prompt": "One single glowing circular gate ring, a thick soft-edged torus of light with a woven straw rim, seen head-on, hand-painted storybook gouache illustration, neutral cream tone so it can be tinted, hollow transparent centre, one subject centred and fully in frame, no text, no other objects, no photo, no photorealism"
+    },
+    {
+      "name": "sprite_gate_core",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_gate_core.png",
+      "facing": "symmetrical, do not mirror",
+      "prompt": "One single soft round glow, a simple filled disc of warm light with feathered edges, seen head-on, hand-painted storybook gouache illustration, neutral cream tone so it can be tinted, one subject centred and fully in frame, no text, no other objects, no photo, no photorealism"
+    },
+    {
+      "name": "sprite_feather_spark",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_feather_spark.png",
+      "facing": "symmetrical, do not mirror",
+      "prompt": "One single small cream feather with a tiny spark of light at its tip, seen head-on and roughly symmetrical, hand-painted storybook gouache illustration, warm cream and wheat with a deep ink outline, one subject centred and fully in frame, no text, no other objects, no photo, no photorealism"
+    },
+    {
+      "name": "sprite_wind_streak",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_wind_streak.png",
+      "facing": "side view, flowing RIGHT to LEFT",
+      "prompt": "STRICT ORIENTATION: flows RIGHT to LEFT. One single horizontal gust of wind drawn as two or three tapering cream brush strokes, side view flowing right to left, hand-painted storybook gouache illustration, pale cream on nothing, one subject centred and fully in frame, no text, no other objects, no photo, no photorealism"
+    },
+    {
+      "name": "sprite_haystack",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_haystack.png",
+      "facing": "symmetrical, do not mirror",
+      "prompt": "One single round straw haystack in a mown field, seen head-on and roughly symmetrical, hand-painted storybook gouache illustration, wheat and ochre with a deep ink outline, one subject centred and fully in frame, minimal ground shadow, no floor, no text, no other objects, no photo, no photorealism"
+    },
+    {
+      "name": "sprite_hedge_tuft",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_hedge_tuft.png",
+      "facing": "symmetrical, do not mirror",
+      "prompt": "One single low rounded hedge tuft with sage-green leaves, seen head-on and roughly symmetrical, hand-painted storybook gouache illustration, sage green and wheat with a deep ink outline, one subject centred and fully in frame, minimal ground shadow, no floor, no text, no other objects, no photo, no photorealism"
+    },
+    {
+      "name": "sprite_mailbox_post",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_mailbox_post.png",
+      "facing": "side view, facing RIGHT",
+      "prompt": "STRICT ORIENTATION: faces RIGHT. One single wooden country mailbox on a post with its little flag raised, side view facing right, hand-painted storybook gouache illustration, warm wood and wheat with a deep ink outline, one subject centred and fully in frame, minimal ground shadow, no floor, no text, no lettering, no other objects, no photo, no photorealism"
+    },
+    {
+      "name": "sprite_cottage",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_cottage.png",
+      "facing": "side view, facing LEFT",
+      "prompt": "STRICT ORIENTATION: faces LEFT. One single tiny thatched country cottage with a warm lit window and its door on the left side, side view facing left, hand-painted storybook gouache illustration, cream walls, wheat thatch and a deep ink outline, one subject centred and fully in frame, minimal ground shadow, no floor, no text, no other objects, no photo, no photorealism"
+    },
+    {
+      "name": "sprite_emblem_wing",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_emblem_wing.png",
+      "facing": "symmetrical, do not mirror",
+      "prompt": "One single abstract emblem, a stylised cream feather set inside an open unclosed ring of light, seen head-on and symmetrical, hand-painted storybook gouache illustration, cream and wheat with a deep ink outline, one subject centred and fully in frame, absolutely no letters, no words, no monogram, no text, no other objects, no photo, no photorealism"
+    },
+    {
+      "name": "sprite_route_crest",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_route_crest.png",
+      "facing": "symmetrical, do not mirror",
+      "prompt": "One single simple postal crest, a rounded shield with a wheat sprig across it, seen head-on and symmetrical, hand-painted storybook gouache illustration, neutral cream tone so it can be tinted, one subject centred and fully in frame, no text, no lettering, no other objects, no photo, no photorealism"
+    },
+    {
+      "name": "sprite_energy_quill",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_energy_quill.png",
+      "facing": "side view, nib pointing DOWN",
+      "prompt": "STRICT ORIENTATION: nib points DOWN. One single cream writing quill with its nib pointing straight down, side view, hand-painted storybook gouache illustration, cream and wheat with a deep ink outline, one subject centred and fully in frame, no text, no other objects, no photo, no photorealism"
+    },
+    {
+      "name": "sprite_strike_pip",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_strike_pip.png",
+      "facing": "symmetrical, do not mirror",
+      "prompt": "One single small round postal stamp pip with a scalloped edge, seen head-on and symmetrical, hand-painted storybook gouache illustration, neutral cream tone so it can be tinted, one subject centred and fully in frame, no text, no lettering, no other objects, no photo, no photorealism"
+    },
+    {
+      "name": "sprite_close_cross",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_close_cross.png",
+      "facing": "symmetrical, do not mirror",
+      "prompt": "One single thick diagonal cross mark made of two cream brush strokes, seen head-on and symmetrical, hand-painted storybook gouache illustration, cream with a deep ink outline, one subject centred and fully in frame, no text, no other objects, no photo, no photorealism"
+    },
+    {
+      "name": "sprite_pause_glyph",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_pause_glyph.png",
+      "facing": "symmetrical, do not mirror",
+      "prompt": "One single pause mark, two thick vertical cream bars side by side with rounded ends, seen head-on and symmetrical, hand-painted storybook gouache illustration, cream with a deep ink outline, one subject centred and fully in frame, no text, no other objects, no photo, no photorealism"
+    },
+    {
+      "name": "sprite_back_glyph",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_back_glyph.png",
+      "facing": "arrow, pointing LEFT",
+      "prompt": "STRICT ORIENTATION: points LEFT. One single thick arrow pointing left, painted as one cream brush stroke with a rounded head, seen head-on, hand-painted storybook gouache illustration, cream with a deep ink outline, one subject centred and fully in frame, no text, no other objects, no photo, no photorealism"
+    }
+  ]
+}
